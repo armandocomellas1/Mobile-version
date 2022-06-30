@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  background-color: #191765;
+}
+
+.container {
+  background-color: #191765;
+  width: 100%;
+  height: 100%;
+}
+
+.works {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 20%;
+}
+
+.works h1 {
+  padding-top: 100px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  color: #9490ff;
+}
+
+.division_section {
+  background: #646369;
+  width: 100%;
+  height: 1px;
+  margin-top: 40px;
+}
+
+.first_logo {
+  width: 100%;
+  height: 236px;
+  background: linear-gradient(0deg, #f9f9f9, #f9f9f9);
+  margin-top: 45px;
+  margin-bottom: 45px;
+}
+
+.works h2 {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 37px;
+  line-height: 44px;
+  color: #fff;
+  margin-bottom: 60px;
+}
+
+.works .firts_p {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  color: #dcdce8;
+}
+
+.list {
+  margin-top: 40px;
+  width: 100%;
+  height: 100px;
+}
+
+.grid_first {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.grid_first li {
+  list-style: none;
+  line-height: 40px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  color: #fff;
+  text-align: center;
+}
+
+.grid_first li:not(:last-child) {
+  border-right: 2px solid #555;
+}
+
+.button_pro {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 89px;
+  height: 48px;
+  background: #7d73fc;
+}
+
+.button_pro span {
+  width: 65px;
+  height: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #edecff;
+}
+
+.about {
+  margin-top: 60px;
+}
+
+.about_p {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  color: #dcdce8;
+  margin-bottom: 100px;
+}
+
+.logos {
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.logos > img {
+  padding: 0 10%;
+}
+
+@media only screen and (max-width: 764px) {
+  .grid_first li {
+    font-size: 15px;
+  }
+
+  .works h1 {
+    font-size: 30px;
+  }
+
+  .works h2 {
+    font-size: 30px;
+  }
+
+  .works .firts_p {
+    font-size: 15px;
+  }
+}
