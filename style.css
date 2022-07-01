@@ -14,21 +14,23 @@ body {
   width: 100%;
   height: 100%;
   display: grid;
+  grid-template-columns: 100%;
 }
 
 .menucontainer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 50% 50%;
   line-height: 50px;
   padding: 0 5%;
   margin-top: 10px;
+  align-items: center;
 }
 
 .menu_icon {
   color: #fff;
   display: flex;
   align-items: center;
+  padding-left: 85%;
 }
 
 .name_head {
@@ -237,5 +239,13 @@ body {
 
   .name_head {
     font-size: 20px;
+  }
+
+  .works .title {
+    font-size: 35px;
+  }
+  
+  .works .subtitle {
+    font-size: 25px;
   }
 }
