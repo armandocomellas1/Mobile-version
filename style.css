@@ -30,7 +30,7 @@ body {
   color: #fff;
   display: flex;
   align-items: center;
-  padding-left: 85%;
+  justify-content: end;
 }
 
 .name_head {
