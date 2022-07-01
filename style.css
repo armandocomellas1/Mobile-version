@@ -232,14 +232,10 @@ body {
   }
 
   .works .article {
-    font-size: 25px;
-  }
-
-  .name_head {
     font-size: 20px;
   }
 
-  .works .article {
+  .name_head {
     font-size: 20px;
   }
 }
