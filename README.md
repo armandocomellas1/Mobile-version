@@ -19,13 +19,11 @@
 
 This is about a mobile version application, there is two parts so far, header and section in the middle wich l show works and about me.
 
-
 ## Authors
 
 👤 **Author1**
 
 - GitHub: [@githubhandle](https://github.com/armandocomellas1)
-
 
 ## 🤝 Contributing
 
