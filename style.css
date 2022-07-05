@@ -166,7 +166,6 @@ body {
   flex-direction: row;
   align-items: center;
   padding: 12px;
-  gap: 10px;
   width: 100px;
   height: 48px;
   background: #7d73fc;
@@ -191,6 +190,36 @@ body {
   color: #edecff;
 }
 
+.button_submit {
+  width: 100px;
+  height: 48px;
+  background: #7d73fc;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.button_submit span {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 0.03em;
+  color: #edecff;
+}
+
+.button_submit:hover {
+  background: #6070ff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+}
+
+.button_submit:active {
+  background: #2230d2;
+  border-radius: 8px;
+}
+
 .about {
   margin-top: 60px;
 }
@@ -205,28 +234,19 @@ body {
   margin-bottom: 100px;
 }
 
-.logos {
-  margin-bottom: 100px;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
-.logos > img {
-  padding: 0 20%;
-}
-
 .formsection {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
 
-.formsection input, textarea {
+.formsection input,
+textarea {
   margin-top: 10px;
   line-height: 40px;
   padding-left: 5px;
   font-size: 20px;
+  margin-bottom: 30px;
 }
 
 .formsection p {
@@ -238,6 +258,7 @@ body {
   color: #f5f5ff;
   margin-top: 20px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .styleh3 {
@@ -256,6 +277,33 @@ body {
   flex-direction: column;
 }
 
+.footer_class {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 5%;
+}
+
+.footer_class p {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #ebebff;
+  padding-bottom: 40px;
+}
+
+.footer_class .logos {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer_class .logos > img {
+  margin: 30px 40%;
+}
+
 .formsection .button_pro {
   margin: 50px auto;
 }
@@ -265,20 +313,6 @@ body {
   width: 100%;
   height: 1px;
   margin-top: 40px;
-}
-
-.works {
-  display: flex;
-}
-
-.works .emails {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  text-align: center;
-  color: #ebebff;
-  padding-bottom: 40px;
 }
 
 @media only screen and (max-width: 764px) {

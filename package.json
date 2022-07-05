@@ -3,7 +3,7 @@
     "lighthouse": "^9.6.3"
   },
   "name": "mobile-version",
-  "description": "",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
   "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {
