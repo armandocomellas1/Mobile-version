@@ -209,6 +209,14 @@ body {
   color: #edecff;
 }
 
+.button_submit:hover {
+  background-color: red;
+}
+
+.button_submit:active {
+  background-color: yellow;
+}
+
 .about {
   margin-top: 60px;
 }
