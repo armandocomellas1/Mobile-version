@@ -11,7 +11,6 @@ body {
 
 .container {
   background-color: #191765;
-  width: 100%;
   height: 100%;
   display: grid;
   grid-template-columns: 100%;
@@ -71,7 +70,6 @@ body {
   font-weight: lighter;
   text-align: center;
   line-height: 25px;
-  width: 100%;
 }
 
 .special {
@@ -196,6 +194,7 @@ body {
   background: #7d73fc;
   margin: auto;
   margin-bottom: 50px;
+  margin-top: 40px;
 }
 
 .button_submit span {
@@ -283,7 +282,6 @@ textarea {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0 5%;
 }
 
 .footer_class p {
@@ -297,12 +295,16 @@ textarea {
 }
 
 .footer_class .logos {
-  display: flex;
-  flex-direction: row;
+  margin: auto;
 }
 
 .footer_class .logos > img {
-  margin: 30px 40%;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.footer_class p {
+  margin-top: 10px;
 }
 
 .formsection .button_pro {
@@ -356,5 +358,90 @@ textarea {
     padding-left: 5px;
     font-size: 15px;
     margin-bottom: 5px;
+  }
+
+  .footer_class p {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 364px) {
+  .grid_first li {
+    font-size: 10px;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .works {
+    width: 80%;
+  }
+
+  .works h1 {
+    font-size: 20px;
+  }
+
+  .works h2 {
+    font-size: 15px;
+  }
+
+  .works .firts_p {
+    line-height: 15px;
+    font-size: 13px;
+  }
+
+  .works .article {
+    font-size: 15px;
+  }
+
+  .name_head {
+    font-size: 10px;
+  }
+
+  .works .title {
+    font-size: 25px;
+  }
+
+  .works .subtitle {
+    font-size: 15px;
+  }
+
+  .formsection input,
+  textarea {
+    margin-top: 5px;
+    line-height: 30px;
+    padding-left: 5px;
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+
+  .footer_class .logos > img {
+    display: inline-block;
+    margin: 0 5px;
+  }
+
+  .footer_class p {
+    font-size: 8px;
+  }
+
+  .about_p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .styleh3 {
+    font-size: 20px;
+  }
+
+  .formsection p {
+    font-size: 15px;
+    line-height: 25px;  
+  }
+
+  .first_logo {
+    height: 190px;
+    background: linear-gradient(0deg, #f9f9f9, #f9f9f9);
+    background-image: url(/img/Placeholder.png);
   }
 }
