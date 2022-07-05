@@ -242,11 +242,12 @@ body {
 
 .formsection input,
 textarea {
-  margin-top: 10px;
+  margin-top: 20px;
   line-height: 40px;
   padding-left: 5px;
   font-size: 20px;
-  margin-bottom: 30px;
+  border: 1px solid #f9f9f9;
+  border-radius: 7px;
 }
 
 .formsection p {
@@ -346,5 +347,14 @@ textarea {
 
   .works .subtitle {
     font-size: 25px;
+  }
+
+  .formsection input,
+  textarea {
+    margin-top: 5px;
+    line-height: 30px;
+    padding-left: 5px;
+    font-size: 15px;
+    margin-bottom: 5px;
   }
 }
